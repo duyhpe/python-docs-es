@@ -26,8 +26,8 @@ from conf import *
 import patchlevel
 version, release = patchlevel.get_header_version_info(os.path.abspath('cpython/Doc'))
 
-project = 'Python en Español'
-copyright = '2001-%s, Python Software Foundation' % time.strftime('%Y')
+project = 'Tài liệu Python 3'
+copyright = '2001-%s, Duy.HPe@gmail.com' % time.strftime('%Y')
 
 html_theme_path = ['cpython/Doc/tools']
 templates_path = ['cpython/Doc/tools/templates']
